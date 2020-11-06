@@ -11,7 +11,7 @@ public class Main {
         float floatVar = -87.12f;
 
         BigDecimal bigDecVar = new BigDecimal("34.09874534895739457349538457");
-        Float[] wrapperArray = { Float.valueOf(-96.12f), 87.1f, new Float(60.17) };
+        float[] floatArray = { -96.12f, 87.1f, new Float(60.17), Float.valueOf(76.23f) };
         Supplier<Integer> interfaceVar = () -> 12;
         CharSequence[] interfaceArray = { new String("value1"), new StringBuffer("ABC"), "test",
                 new StringBuilder("123ok") };
