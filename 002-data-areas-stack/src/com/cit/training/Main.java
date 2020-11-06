@@ -7,13 +7,13 @@ public class Main {
     public static void main(String args[]) {
         int max = 10;
         for (int i = 0; i < max; i++) {
-            System.out.print(fib(i) + " ");
+            System.out.print(fibonacci(i) + " ");
         }
     }
 
-    private static int fib(int n) {
+    private static int fibonacci(int n) {
         if (n > 1) {
-            return fib(n - 1) + fib(n - 2);
+            return fibonacci(n - 1) + fibonacci(n - 2);
         } else {
             return n;
         }
